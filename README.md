@@ -10,7 +10,7 @@ cd polcerrillo-m09-cerrillo-pol-ubuntu-xfce-vnc
 ```
 ### 2️⃣ Build the Docker Image
 ```bash
-docker build -t ubuntu-xfce-vnc .
+docker build -t polcerrillo/m09-cerrillo-pol:ubuntu-xfce-vnc .
 ```
 ### 3️⃣ Run the Container
 ```bash
