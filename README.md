@@ -14,11 +14,11 @@ docker build -t polcerrillo/m09-cerrillo-pol:ubuntu-xfce-vnc .
 ```
 ### 3️⃣ Run the Container
 ```bash
-docker run -dit -p 5901:5901 -p 5431:22 --name my-ubuntu-xfce ubuntu-xfce-vnc bash
+docker run -dit -p 5901:5901 -p 5431:22 --name my-ubuntu-xfce polcerrillo/m09-cerrillo-pol:ubuntu-xfce-vnc bash
 ```
 ### 4️⃣ Access the Running Container
 ```bash
-docker exec -it ubuntu-xfce-vnc bash
+docker exec -it polcerrillo/m09-cerrillo-pol:ubuntu-xfce-vnc bash
 ```
 ### 5️⃣ Set Up and Start VNC Server
 ```bash
