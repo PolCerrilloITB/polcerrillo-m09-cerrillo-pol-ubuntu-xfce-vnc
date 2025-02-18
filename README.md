@@ -43,7 +43,8 @@ vncserver :1 -geometry 1920x1080 -depth 24
 · Modify ports in the docker run command if needed.
 · Use docker stop my-ubuntu-xfce to stop the container.
 
-## [![Docker Hub](https://img.shields.io/badge/Docker%20Hub-0db7ed?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/polcerrillo/m09-cerrillo-pol)
+## DockerHub Public
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-0db7ed?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/polcerrillo/m09-cerrillo-pol)
 
  ## License
 
