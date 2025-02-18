@@ -42,6 +42,10 @@ vncserver :1 -geometry 1920x1080 -depth 24
 · If VNC does not start, ensure that the xstartup script has execution permissions.
 · Modify ports in the docker run command if needed.
 · Use docker stop my-ubuntu-xfce to stop the container.
+
+## DockerHub Public URL
+https://hub.docker.com/repository/docker/polcerrillo/m09-cerrillo-pol/tags/ubuntu-xfce-vnc/sha256-afec394f4bf88e91452d314976d9c2cc9c683d8ad23aec1adcae44ad8e253f43
+
  ## License
 
 This project is open-source and maintained by Pol Cerrillo. Feel free to modify and improve it!
